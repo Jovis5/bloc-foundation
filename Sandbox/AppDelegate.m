@@ -17,6 +17,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    // NSLog(@"Hello, iPhone!");
+    NSLog (@"Hello, France!");
+    NSLog (@"My name is Matt.");
+//    chant
+    [self chant];
+    [self chant];
+    [self chant];
+    [self chant];
+    NSLog (@"Would you like to play in the sandbox");
+    NSLog (@"I hope I am doing this right");
+    NSLog (@"This is interesting stuff.");
+    NSLog (@"Am I doing this right?");
+    
     return YES;
 }
 
@@ -41,5 +54,9 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
+- (void) chant
+{
+//    Method code here
+    NSLog (@"Lions and Tigers and Bears, Oh My!");
+}
 @end
